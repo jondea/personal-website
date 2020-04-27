@@ -1,0 +1,52 @@
+body{font-family: 'Open Sans', sans-serif;}
+
+.social-link{margin-right:2rem;}
+
+.orcid-icon{
+  background: url('../orcid-icon.png') transparent no-repeat;
+  background-size: 1.5rem 1.5rem;
+  display:inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.header img{
+  width:100%;
+  border-radius: 2px;
+  padding-top: 20px;
+}
+
+@media (min-width: 550px) {
+  .header img{
+    width:auto;
+    height:100px;
+    vertical-align:middle;
+    display:inline-block;
+    padding:20px;
+    padding-left: 0px;
+  }
+}
+
+.responsive-img{
+  width:100%;
+}
+
+@media (min-width: 550px) {
+  .responsive-img{
+    width:30%;
+    float:left;
+    padding:20px;
+    padding-left: 0px;
+  }
+
+  .responsive-img.right{
+    float:right;
+  }
+}
+
+
+.header>div{
+  display:inline-block;
+  vertical-align:middle;
+}

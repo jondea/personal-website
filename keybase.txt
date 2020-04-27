@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/jondea
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jonathan.thedeakin.net
+  * I am jondea (https://keybase.io/jondea) on keybase.
+  * I have a public key with fingerprint 37BF 21D5 7ED6 4E67 B380  57F8 5BED 520E 777E 9058
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010429879f4912c1c9ffe098732954d68bd33bdafe008e8b28fe6414c6395ae87e0a",
+      "fingerprint": "37bf21d57ed64e67b38057f85bed520e777e9058",
+      "host": "keybase.io",
+      "key_id": "5bed520e777e9058",
+      "kid": "01010429879f4912c1c9ffe098732954d68bd33bdafe008e8b28fe6414c6395ae87e0a",
+      "uid": "3f2132aa34ff7cc98d473564e1e90a19",
+      "username": "jondea"
+    },
+    "service": {
+      "hostname": "jonathan.thedeakin.net",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1517785197,
+  "expire_in": 157680000,
+  "prev": "c276abc506817d1c3efd4c4c3706c385029400486bedd38f630017126f67571b",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMItAnicrVJtSBRBGL5Tk7w+KIqiLIIFJcuPnZ2dndmTLKKIyoqsiCTa9mP2bj3b
+Pe/WO+OMkC76+HFUkBWRBEJRUYH6yz6VKCsJKqOOoMBS0Yj60RdE0awU/elnMz+G
+eeZ5nvd5X+bOlFxfwP+6texk5eDIFf/DnrZGX23yyK4UpznGbi6Y4iJ0/KD1Bo27
+SsQyuCDHA7ZFQSZYNkUZCDrQZdOkPAOgICPRkIhmQKgZKgN5QokmEJNKIhB1CcpI
+pQRTXuVKOdOyQzQWjVm2y2wh1kwBGAhTQxKphDVIeIRNgjRqIIGnGGMq84gwYdiJ
+ewoWTlPjtNxyGMYuyni8f/D/c+7GcTvI0kJBVaFomljXZWKIGCIWHbCyKpA9YpzG
+bHUXZew6xzaoyu0p5RiWsHTqjdXr4++76oZVu9wNU0aMWHa5TV3mEY05rqM79YwT
+dt1o0LNwd0c9TZJqym83RbNsg42TCRI0FrccmwsCxtRdy7MHCGBMEJBxKUebolaM
+KpbHQFgiPFteGZpglrqAJVXTES8RgA2gQ2oaoi7qEPOSDgniBVnkeZFIbMgGJKYE
+eR5gIEimhBEGGuf112A7XJCwmGqIWcatEGutMUa5Pb23t+f5/AFf/oQc75v5AgXT
+/ny+BYcn+g4PVaPl9uqO1Ip0YXp+9m1NvVI0nHk/cMGXNzf6s2fm+7tN4f7mWfFF
+BSPP9n7MXXi/cMOStRevwZqxZY+Vdcqr2V+uZNGtQVIy4WXHtsaHo6dDKbNSGGqR
+rq07dOLq+Z29jz9//zB5+NPSzzcvVSXs9q54S9W9J9EtZxMVTctPtqVq88JjM9Jf
+Xqwqe7CsdtLT62/ePejsm51eU1Iwt68OBrL7Yd1XPDrvyfXqhp/T1c6tizcuCK6c
+1zG840DR1FxQfc4Wi1/uL/zWf4o0ZwbPPG3vvgGzm5X1GfrhckXr0U2Zgzsfregu
+3lf0oyfSIs+pXKm98D/vOp7fkDw2kBxoy9n8C7WdQhs=
+=463O
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jondea
+
+==================================================================

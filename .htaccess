@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www.jonathan.thedeakin.net$ [NC]
+RewriteRule ^(.*)$ https://jonathan.thedeakin.net/$1 [R,L]
+
+RewriteCond %{HTTPS}  !=on 
+RewriteRule ^/?(.*) https://jonathan.thedeakin.net/$1 [R,L] 

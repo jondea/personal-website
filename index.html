@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Jonathan Deakin</title>
+  <meta name="description" content="Personal profile of Jonathan Deakin">
+  <meta name="author" content="Jonathan Deakin">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="mugshot.jpg">
+      <div>
+        <h1 style="padding-top:0px;">Jonathan Deakin</h1>
+        <div class="links">
+          <a href="https://www.github.com/jondea" class="social-link"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/jonathan-deakin" class="social-link"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a href="https://www.keybase.io/jondea" class="social-link"><i class="fa fa-key" aria-hidden="true"></i> Keybase</a>
+          <a href="https://www.orcid.org/0000-0001-6511-6563" class="social-link"><i class="orcid-icon" aria-hidden="true"></i> ORCID</a>
+        </div>
+      </div>
+    </div>
+
+    <h2>Bio</h2>
+    <p>
+      As an applied mathematics PhD student and technical co-founder at
+      Etymo, I am motivated by finding and communicating powerful
+      mathematical solutions to everyday problems. I have experience in
+      scientific computing, writing efficient software in high level (Julia,
+      Python, MATLAB) and low level (C++) languages. I am also interested
+      in AI, web technologies, databases and computer hardware.
+    </p>
+
+    <h2>Education</h2>
+    <p>
+      Currently studying for an applied mathematics PhD at the University of Manchester.
+      Previously I studied Maths at Jesus College, Cambridge.
+      Coursed taken include Numerical Analysis, Fluid Dynamics, Optimization and Control, Statistical Modelling, Mathematical Biology, Computational coursework using MATLAB, Deep Neural Networks and Dimensionality Reduction.
+    </p>
+
+    <h2>Projects</h2>
+    <h3>PhD</h3>
+    <p>
+      The title of my PhD project is: <i>"Efficient numerical solvers for acoustic fluid-structure interaction problems"</i> and is supervised by <a href="http://www.ma.man.ac.uk/~mheil/">Professor Matthias Heil</a> and <a href="http://www.maths.manchester.ac.uk/~ahazel/">Professor Andrew Hazel</a>.
+    </p>
+    <p>
+      I am an active contributor to <code><a href="http://oomph-lib.maths.man.ac.uk/">oomph-lib</a></code>, a C++ library for solving partial differential equations using the finite element method.
+      All machinery developed during my PhD has been implemented in <code>oomph-lib</code>.
+      I am also nominally responsible for the styling of the website too.
+    </p>
+    <img src="plot_field.png" class="responsive-img right" style="max-width:;">
+    <p>
+      I co-created <a href="https://github.com/jondea/MultipleScattering.jl">MultipleScattering.jl</a>, which is a Julia library for simulating the acoustic scattering from multiple particles.
+      The library uses multiple dispatch instead of object oriented principles to build general machinery which could be easily extended to different numbers of dimensions, different equations (like the Poisson equation or linear elasticity), particle shapes and sources.
+    </p>
+
+    <h3>etymo.io</h3>
+    <p>
+      I am a co-founder and engineer at <a href="https://etymo.io">etymo.io</a>, where we build knowledge graphs for enterprise.
+      For an example, we developed <a href="https://scholar.etymo.io">scholar.etymo.io</a> a search engine for AI researchers.
+      More technical details can be found in our <a href="https://arxiv.org/abs/1801.08573">pre-print on arXiv</a> explaining the mathematical underpinnings and system architecture of the search engine.
+    </p>
+    
+    <h3>Arduino</h3>
+    <img src="arduino.jpg" class="responsive-img">
+    <p>
+      The idea of a small, programmable device is as appealing to me as it seems to be to everybody else (see <a href="https://en.wikipedia.org/wiki/Internet_of_things">IoT</a> and <a href="https://www.raspberrypi.org/">Raspberry Pi</a> ).
+      I started to play around with Arduinos during a summer project at <a href="https://pcmend.net">PCMend.net</a> and I've been hooked ever since.
+    </p>
+    <p>
+      I have lead the software development of a data-logger and pass-through device.
+      The data logger was used to monitor water flow for a UK gym chain.
+      The pass-through device passes messages from Ethernet to RS232, then sends back any replies.
+      The unit can be configured by a webpage, reports its presence over Control4 SDDP and we are in the process of developing support for cloud control such as Alexa.
+      It is currently in production and has been installed in commercial TVs.
+    </p>
+
+    <h3>Manchester SIAM-IMA Student Chapter</h3>
+    <p>
+      As the Webmaster for the chapter, it was my responsibility to maintain and update the <a href="http://www.maths.man.ac.uk/~siam">website</a>.
+      This included redesigning the interface of the website, as the old interface had become dated and unsuitable for mobiles.
+    </p>
+      As a member of the committee, it was also my responsibility to organise conferences:
+      <ul>
+        <li><a href="http://www.maths.manchester.ac.uk/~siam/msscc16/">Manchester SIAM Student Chapter Conference 2016</a></li>
+        <li><a href="http://www.maths.manchester.ac.uk/~siam/julia16">Manchester Julia Workshop 2016</a></li>
+        <li><a href="http://www.maths.manchester.ac.uk/~siam/autotrader17">Auto Trader Industry Problem Solving Event 2017</a></li>
+        <li><a href="http://www.maths.manchester.ac.uk/~siam/msiscc17/">Manchester SIAM-IMA Student Chapter Conference 2017</a></li>
+      </ul>
+    <p>
+      I recently ran a short seminar/workshop on basic web design skills for students at The University of Manchester. The content of the workshop can be <a href="http://github.com/jondea/maths.html">found on GitHub</a>.
+    </p>
+    
+    <h3>Mondohack III: Mondonate</h3>
+    <p>
+      Inspired by our interest in transparent and <a href="https://en.wikipedia.org/wiki/Effective_altruism">effective charity</a>, Charlie Whittaker and I attended <a href="https://monzo.com/blog/2016/01/28/mondohack-III/">Mondohack III</a>.
+      Organised by the startup bank <a href="https://monzo.com/">Monzo</a> (previously called Mondo), it was an invitation to play with their API.
+      Our idea was that when a user donated money to a charity, we would detect this and give them information on what the donation would acheive.
+      Thanks to the admirable efforts by charities like <a href="https://www.againstmalaria.com/">the Against Malaria Foundation</a>, we could then provide a donor with an update on its <em>true</em> impact right in their bank statement.
+      Charity can seem distant, and as a result donors may give little thought to the actual impact.
+      Tools like this could close the gap and encourage donors to consider their impact, perhaps choosing higher impact charities.
+    </p>
+    <p>
+      Several great <a href="https://github.com/orgs/mon-donate/people">people</a> joined the team to contribute, and the product we presented (mainly written by <a href="https://github.com/JoeOBrien">Joe O'Brien</a>) won a runner up prize. The code can be found on the <a href="https://github.com/mon-donate">Mondonate team GitHub.</a>
+    </p>
+  </div>
+</body>
+
+</html>
